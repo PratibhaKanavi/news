@@ -20,8 +20,8 @@ public class MasterControllerTest {
 	@Test
 	public void testController() {
 		
-		when(controller.home()).thenReturn("Spring mvc is created");
-		assertEquals("Spring mvc is created",controller.home());
+		when(controller.home()).thenReturn("Modified the return type");
+		assertEquals("Modified the return type",controller.home());
 		verify(controller).home();
 	}
 	

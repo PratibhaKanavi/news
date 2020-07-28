@@ -11,7 +11,7 @@ public class MasterController {
 	@RequestMapping(value="/")
 	@ResponseBody
 	public String home() {
-		return "Spring mvc is created";
+		return "Modified the return type";
 	}
 	
 
