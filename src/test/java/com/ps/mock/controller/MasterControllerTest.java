@@ -21,7 +21,7 @@ public class MasterControllerTest {
 	public void testController() {
 		
 		when(controller.home()).thenReturn("Modified the return type");
-		assertEquals("Modified the return type",controller.home());
+		assertEquals("Changing!!!!!",controller.home());
 		verify(controller).home();
 	}
 	
