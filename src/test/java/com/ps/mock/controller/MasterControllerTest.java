@@ -20,7 +20,7 @@ public class MasterControllerTest {
 	@Test
 	public void testController() {
 		
-		when(controller.home()).thenReturn("Modified the return type");
+		when(controller.home()).thenReturn("Changing!!!!!");
 		assertEquals("Changing!!!!!",controller.home());
 		verify(controller).home();
 	}
