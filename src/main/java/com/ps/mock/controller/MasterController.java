@@ -12,7 +12,7 @@ public class MasterController {
 	@RequestMapping(value="/")
 	@ResponseBody
 	public String home() {
-		return "Changing!!!!!";
+		return "return string";
 	}
 	
 	

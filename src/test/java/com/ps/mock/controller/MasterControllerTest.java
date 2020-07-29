@@ -20,8 +20,8 @@ public class MasterControllerTest {
 	@Test
 	public void testController() {
 		
-		when(controller.home()).thenReturn("Changing!!!!!");
-		assertEquals("Changing!!!!!",controller.home());
+		when(controller.home()).thenReturn("return string");
+		assertEquals("return string",controller.home());
 		verify(controller).home();
 	}
 	
